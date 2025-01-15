@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "C:/Users/jbethancourt/OneDrive - Banco Nacional de Panamá/Documentos/Código/Curso-Angular/todoapp/dist/todoapp/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
